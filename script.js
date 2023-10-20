@@ -22,7 +22,7 @@ const createWeatherCard = (cityName, weatherItem, index) => {
                 </div>`;
     } else {
         return `<div class="col mb-3">
-                    <div class="card border-5 bg-secondary text-white">
+                    <div class="card border-0 bg-success  text-white">
                         <div class="card-body p-3 text-white">
                             <h5 class="card-title fw-semibold">(${weatherItem.dt_txt.split(" ")[0]})</h5>
                             <img src="https://openweathermap.org/img/wn/${weatherItem.weather[0].icon}.png" alt="weather icon">
